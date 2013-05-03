@@ -12,7 +12,11 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hello world" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsm-cG-iZh">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hello world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsm-cG-iZh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="EMk-66-pP3"/>
+                                    <constraint firstAttribute="width" constant="152" id="sCs-OK-liU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -20,8 +24,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="lsm-cG-iZh" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="mtg-wg-htt"/>
-                            <constraint firstItem="lsm-cG-iZh" firstAttribute="top" secondItem="3" secondAttribute="top" constant="226" id="x1A-e3-loh"/>
+                            <constraint firstItem="lsm-cG-iZh" firstAttribute="top" secondItem="3" secondAttribute="top" constant="170" id="T5b-MA-ni5"/>
+                            <constraint firstItem="lsm-cG-iZh" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="45" id="n8P-JX-lT6"/>
                         </constraints>
                     </view>
                 </viewController>
