@@ -1,0 +1,15 @@
+//
+//  AppDelegate.h
+//  Practice with Git
+//
+//  Created by Marc Myers on 5/3/13.
+//  Copyright (c) 2013 Marc Myers. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
